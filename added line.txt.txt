@@ -1,0 +1,18 @@
+Switching Branches: Switching Branches is used to move between branches in
+your Git repository. 
+Command: git checkout <branch-name>
+
+Merging Branches: Merging Branches is used to combine the changes from one
+branch into another.
+Command: git merge <branch-name>
+
+Deleting Branches: To remove branches that are no longer needed. 
+Command: git branch -d <branch-name>
+
+git rebase: “git rebase” command is used to move or combine a sequence of
+commits to a new base commit. It’s often used to clean up commit history. 
+Command: git rebase <branch-name>
+
+Usage of Squash: To combine multiple commits into a single commit, usually
+during an interactive rebase. 
+Command: git rebase -i <commit-hash>
